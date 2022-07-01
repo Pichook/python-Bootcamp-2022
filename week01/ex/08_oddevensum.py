@@ -10,6 +10,7 @@ num = input("Enter number: ")
 x = num.isdigit()
 if x != True:
     print("Not Valid.")
+
 else:
     number=int(num)
     for i in range(number + 1):
@@ -19,6 +20,5 @@ else:
         else:
             list_odd.append(i)
             oddSum += i
-
-print(f"Average of evensum: {evenSum/len(list_even)}")
-print(f"Average of oddsum: {oddSum/len(list_odd)}")
+    print(f"Average of evensum: {evenSum/len(list_even)}")
+    print(f"Average of oddsum: {oddSum/len(list_odd)}")
