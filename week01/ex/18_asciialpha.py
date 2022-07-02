@@ -1,7 +1,4 @@
-# Write a program to input a string and display the ASCII values of all characters of the string.
-#
-# c = input("Enter: ")
-# print(ord(c))
+# Write a program to input a string and display the ASCII values of all characters of the string
 
 c = input("Enter here: ")
 list=[]

@@ -9,3 +9,4 @@ else:
     b = string[len(string)//2:len(string)+1]
     print(a+b)
 
+
