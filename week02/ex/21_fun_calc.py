@@ -5,3 +5,22 @@
 # defined with the third argument. The function should also print the result and also the
 # calculation process.
 
+def fun_calc(num1, num2, op):
+    if op == '-':
+        result = num1 - num2
+        print(result)
+        print(f"Process: {num1} - {num2} = {result}")
+    elif op == '+':
+        result = num1 + num2
+        print(result)
+        print(f"Process: {num1} + {num2} = {result}")
+    elif op == '*':
+        result = num1 * num2
+        print(result)
+        print(f"Process: {num1} * {num2} = {result}")
+    elif op == '/':
+        result = num1/num2
+        print(result)
+        print(f"Process: {num1}/{num2} = {result}")
+
+fun_calc(int(input("Number 1: ")), int(input("Number 2: ")), input("Operators: "))
