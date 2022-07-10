@@ -22,5 +22,7 @@ def fun_calc(num1, num2, op):
         result = num1/num2
         print(result)
         print(f"Process: {num1}/{num2} = {result}")
+    else:
+        print("Enter valid operators")
 
 fun_calc(int(input("Number 1: ")), int(input("Number 2: ")), input("Operators: "))
