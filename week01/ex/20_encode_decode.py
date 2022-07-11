@@ -33,7 +33,7 @@ if choice == 1:
         choice1 = int(input("1 for encode \n2 for decode \nEnter: "))
         if choice1 == 1:
             x = input("Enter words to be encoded: ")
-            print("The encoded text is: ", rot13(x), "[Y/N]")
+            print("The encoded text is: ", rot13(x))
         elif choice1 == 2:
             z = input("Enter words to be decoded: ")
             print("The decoded text is: ", rot13(z))
