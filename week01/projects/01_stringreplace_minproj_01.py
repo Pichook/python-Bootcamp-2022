@@ -1,3 +1,5 @@
+print("01_stringreplace_minproj_01.py")
+
 string = str(input("Please input a paragraph: "))
 searched_word = str(input("Please input a search string: "))
 
