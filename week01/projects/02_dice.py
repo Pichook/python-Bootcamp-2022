@@ -11,7 +11,8 @@ def random_nums(num):
     print('='*10)
 
 
-
+file_name = "$ python 01_dice.py"
+print(file_name)
 
 Intro = "Welcome to the dices game!"
 print(Intro)
