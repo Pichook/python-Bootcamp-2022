@@ -1,8 +1,7 @@
 
 def oct_to_dec(num):
     x = num.isdigit()
-    num = str(num)
-    set_num = set(num)
+    set_num = set(str(num))
     if (x == True) and ('9' not in set_num):
         dec = 0
         i = 0
@@ -16,6 +15,6 @@ def oct_to_dec(num):
     else: 
         print("This is not an octal number")
 
-oct_to_dec(750)
+oct_to_dec('750')
 oct_to_dec('das')
 oct_to_dec('759')
