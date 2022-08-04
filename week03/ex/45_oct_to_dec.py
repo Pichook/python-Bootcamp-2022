@@ -18,4 +18,3 @@ def oct_to_dec(num):
 oct_to_dec('750')
 oct_to_dec('das')
 oct_to_dec('759')
-oct_to_dec('758')

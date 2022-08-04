@@ -1,6 +1,7 @@
 import numpy as np
 
 def matrix_subtraction(mat1, mat2):
+    print("matrix_subtraction(matrix1, matrix2)\n")
     print("\nMatrix 1:\n\n", str(mat1).replace('[', '').replace(']', ''))
     print("\nMatrix 2:\n\n", str(mat2).replace('[', '').replace(']', ''))
     minus = mat1 - mat2

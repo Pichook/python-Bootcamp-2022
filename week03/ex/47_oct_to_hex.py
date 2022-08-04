@@ -10,5 +10,5 @@ def oct_to_hex(num):
 
 
 oct_to_hex(1271)
-oct_to_hex(888)
+oct_to_hex(78)
 oct_to_hex('ban2')
