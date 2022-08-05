@@ -6,10 +6,7 @@ def message_converter(str):
         hex_i = hex(con_i)
         list.append(hex_i[2:].upper())
     rejoin = ''.join(list)
+    print(f"message_converter('{str}')\n")
     print(rejoin)
-    
-    
-        
-
 
 message_converter("Hello")
