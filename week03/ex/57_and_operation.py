@@ -16,7 +16,7 @@ def and_operation(hex1, hex2):
         bin2_el = bin2[i]
         if (bin1_el == '1' and bin2_el == '0') or (bin1_el == '0' and bin2_el == '1'):
             list.append('0')
-        elif bin1_el == '1' and bin2_el == '1':
+        elif (bin1_el == '1' and bin2_el == '1') or (bin1_el == '0' and bin2_el == '0'):
             list.append('1')
     rejoin = ''.join(list)
     print(f"\nand_operation({hex1}, {hex2})\n")
