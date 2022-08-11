@@ -7,7 +7,7 @@ def matrix_multiplication(mat1, mat2):
     if column2 == row1: 
         mult = mat1@mat2
         print(mult)
-    else:
+    else: # else block not working at the moment
         print("Error. Row of matrix 1 is not equal to column of matrix 2.")
 
 
@@ -17,7 +17,7 @@ def matrix_multiplication(mat1, mat2):
 # mat2 = np.array([[6, 5, 4], [3, 2, 1], [1, 2, 3]])
 # matrix_multiplication(mat1, mat2)
 
-mat1 = np.array([[3, 7], [2, 6], [4, 3]])
+mat1 = np.array([[3, 7, 5], [2, 6, 7], [4, 3, 2]])
 mat2 = np.array([[6, 5, 4], [3, 2, 1]])
 matrix_multiplication(mat1, mat2)
 
