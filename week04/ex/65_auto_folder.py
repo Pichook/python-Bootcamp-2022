@@ -11,7 +11,7 @@ def auto_folder(list):
             while True:
                 q = input("Are you sure you want to replace <FOLDER_NAME>? [Y/N] ")
                 
-                if q == 'y':
+                if q.lower() == 'y':
                     shutil.rmtree(list[i])
                     d = os.getcwd()
                     path = os.path.join(d, list[i])
@@ -19,7 +19,7 @@ def auto_folder(list):
                     print('1')
                     break
 
-                elif q == 'n':
+                elif q.lower() == 'n':
                     print('0')
                     break
 
@@ -31,7 +31,7 @@ def auto_folder(list):
             path = os.path.join(d, list[i])
 
             os.mkdir(path)
-            print('11')
+            print('1')
 
 
 
